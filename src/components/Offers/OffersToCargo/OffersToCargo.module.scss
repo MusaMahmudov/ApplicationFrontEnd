@@ -1,0 +1,46 @@
+.OffersToCargo {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  margin-top: 20px;
+
+  & .list {
+    margin-top: 20px;
+
+    & ul {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      margin: 0px;
+      padding: 0px;
+      gap: 24px;
+      & li {
+        border-radius: 16px;
+        padding: 20px;
+        border: 1px solid black;
+        display: flex;
+        flex-direction: column;
+        & .firstLine {
+          display: flex;
+          justify-content: space-between;
+          & .prices {
+            padding: 10px;
+          }
+          & .driverInformation {
+            padding: 10px;
+            & h1 {
+              margin: 10px 0px;
+            }
+          }
+        }
+        & .secondLine {
+          & .actions {
+            padding: 20px;
+            display: flex;
+            gap: 16px;
+          }
+        }
+      }
+    }
+  }
+}

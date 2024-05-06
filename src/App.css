@@ -1,0 +1,35 @@
+body {
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+.error h1 {
+  width: 1000px;
+  margin: 0px;
+  color: red;
+}
+.received {
+  background: #cce8e8;
+
+  max-width: 200px;
+  padding: 24px 12px;
+  border-radius: 50px;
+}
+.received p {
+  margin: 0px;
+}
+.sended {
+  margin-left: 70%;
+  background: red;
+
+  max-width: 200px;
+  padding: 24px 12px;
+  border-radius: 50px;
+}
+.sended p {
+  margin: 0px;
+}
+.isActiveResponsive {
+  background: "#1976d2";
+  color: "white";
+}

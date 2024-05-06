@@ -1,0 +1,15 @@
+.pagination {
+  padding: 30px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: end;
+  & .buttons {
+    display: flex;
+    gap: 40px;
+    & div {
+      & button {
+        padding: 5px 20px;
+      }
+    }
+  }
+}

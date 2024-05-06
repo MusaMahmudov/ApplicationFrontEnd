@@ -1,0 +1,54 @@
+.leftSide {
+  & .container {
+    display: flex;
+    width: 100%;
+
+    & .chats {
+      display: flex;
+      flex-direction: column;
+      background: #cce8e8;
+
+      & .search {
+        padding: 20px;
+      }
+      & .chatList {
+        background: #eff5f4;
+        padding: 24px;
+
+        & .chatUser {
+          &:hover {
+            cursor: pointer;
+          }
+          padding: 20px;
+
+          display: flex;
+          flex-direction: column;
+          padding: 24px;
+          border-bottom: 1px solid gray;
+          gap: 18px;
+          position: relative;
+          & .firstLine {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            & h1 {
+              margin: 0px;
+            }
+            & .lastMessageTime {
+              color: gray;
+              & p {
+                margin: 0px;
+              }
+            }
+          }
+          & .icon {
+            position: absolute;
+            right: 30px;
+          }
+        }
+      }
+    }
+  }
+}
+.leftSide {
+}

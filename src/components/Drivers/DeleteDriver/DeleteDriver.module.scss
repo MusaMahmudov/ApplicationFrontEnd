@@ -1,0 +1,32 @@
+.driverDetails {
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 20px 40px;
+  & .container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    & .action {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+
+    & .info {
+      display: flex;
+      flex-direction: column;
+
+      & h1 {
+        font-weight: 700;
+        margin: 0px;
+        font-size: 30px;
+      }
+      & p {
+        color: gray;
+        font-weight: 500;
+        font-size: 22px;
+        margin: 0px;
+      }
+    }
+  }
+}
